@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript" src="./event.js"></script>
+</head>
+<body id="body-id">
+ <div id="parent" onclick="parent()">Parent-Bubbling
+     <div id="child" onclick="child()">Child-Bubbling</div>
+ </div>
+ <button onclick="startCapture()">Start Event Capturing!</button>
+ <div id="parent-capturing">Parent-Capturing
+    <div id="child-capturing">Child-Capturing</div>
+</div>
+</body>
+</html>
